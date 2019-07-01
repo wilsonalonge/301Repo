@@ -17,15 +17,6 @@ class RegisterUserViewController: UIViewController {
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var phoneTextField: UITextField!
     
-    //creating parameters for the post request
-    let parameters: Parameters=[
-        "username":textFieldUsername.text!,
-        "password":textFieldPassword.text!,
-        "name":textFieldName.text!,
-        "email":textFieldEmail.text!,
-        "phone":textFieldPhone.text!
-    ]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -56,8 +47,8 @@ class RegisterUserViewController: UIViewController {
             displayMessage(userMessage: "All fields are required to fill in")
             return
         }
-    
-        }
+        
+        
     
     
     }

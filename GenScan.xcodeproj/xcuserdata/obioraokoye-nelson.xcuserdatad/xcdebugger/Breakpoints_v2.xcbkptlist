@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GenScan/RegisterUserViewController.swift"
-            timestampString = "583488774.56633"
+            timestampString = "583686799.204114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "parameters"
-            landmarkType = "24">
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "displayMessage(userMessage:)"
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
